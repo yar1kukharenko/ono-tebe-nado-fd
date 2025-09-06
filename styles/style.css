@@ -125,7 +125,7 @@ ul {
 }
 
 .description__button {
-    border: 1px solid #FFFFFF;
+    border: 1px solid currentColor;
     background: transparent;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -139,14 +139,14 @@ ul {
 }
 
 
-.h2 {
+.section-title {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 
-.lots .h2 {
+.lots__title {
     margin-left: 40px;
 }
 
