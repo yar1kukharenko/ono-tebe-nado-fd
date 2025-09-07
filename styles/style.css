@@ -220,7 +220,7 @@ ul {
     margin-top: 124px;
     padding: 35px 24px 0;
     display: grid;
-    grid: repeat(3, 1fr ) / repeat(3, 1fr );
+    grid: 1fr /  repeat(3, 1fr );
     column-gap: 25px;
 }
 
@@ -241,13 +241,14 @@ ul {
 
 .about__title {
     grid-column: 2 / span 2;
+    /*grid-row: 1;*/
     align-self: center;
 
 }
 
 .about__text-container {
     grid-column: 2 / span 2;
-    grid-row: 2 / span 2;
+    /*grid-row: 1;*/
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -262,6 +263,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     padding: 0 50px 82px;
+    margin-top: 184px;
 
 }
 
@@ -281,6 +283,11 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-self: end;
+}
+
+.footer__menu-link {
+    line-height: 100%;
+    font-size: 18px;
 }
 
 
